@@ -101,11 +101,11 @@ Stop the server (Ctrl-C) to ensure the server is not able to store any changes.
 
 Edit a textarea and create a new fruit. As the server is not running, these are offline changes.
 
-Close the browser. Every data in the memory is lost. The changes are saved to indexeddb.
+Close the browser. Every data in the memory is lost but the changes were already saved to indexeddb.
 
 Open the browser again at <http://localhost:8011>, it shows an error as the http server is not running.
 
-Start the server again with `node backen.js`.
+Start the server again with `node backend.js`.
 
 Reload the webpage and watch the offline change still being there.
 

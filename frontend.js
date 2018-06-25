@@ -45,7 +45,7 @@ Y({
     }
   }
 
-  y.share.fruits.observe(updateDom)
+  fruits.observe(updateDom)
 
   updateDom()
 })
