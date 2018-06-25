@@ -21,6 +21,12 @@ git clone git@github.com:adabru/yjs-demo.git
 cd yjs-demo
 ```
 
+Ensure you use node version 8. If you already installed packages using another version, delete the `node_modules`-folder.
+
+```
+node -v
+```
+
 The demo uses webpack for dependency management.
 
 ```
